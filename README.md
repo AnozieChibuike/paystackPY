@@ -1,22 +1,22 @@
-[![PyPI Version](https://img.shields.io/pypi/v/paystackPY.svg)](https://pypi.org/project/paystackPY/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/paystackPY.svg)](https://pypi.org/project/paystackPY/)
-[![License](https://img.shields.io/pypi/l/paystackPY.svg)](https://github.com/AnozieChibuike/paystackPY/blob/master/LICENSE)
+[![PyPI Version](https://img.shields.io/pypi/v/paystackClientApi.svg)](https://pypi.org/project/paystackClientApi/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/paystackClientApi.svg)](https://pypi.org/project/paystackClientApi/)
+[![License](https://img.shields.io/pypi/l/paystackClientApi.svg)](https://github.com/AnozieChibuike/paystackClientApi/blob/master/LICENSE)
 
-A Python package that creates a typewriter effect for text output.
+Paystack api implemented as a package, paystack-client-Api is a simple project created by Joel .A.
 
 ## Installation
 
 You can install this package using `pip`:
 
 ```bash
-pip install paystackPY 
+pip install paystackClientApi 
 ```
 
 Usage
 -----
 
 ```python
-from paystackPY import Paystack
+from paystackClientApi import Paystack
 
 paystack = Paystack(api_key=<Your paystack api key>)
 reference = <Your custom reference>
