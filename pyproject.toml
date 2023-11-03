@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "paystackPY"
+version = "0.1.0"
+description = "Paystack api implemented as a package, paystack-py is a simple project created by Joel .A."
+authors = ["AnozieChibuike <chibuikeanozie0@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
